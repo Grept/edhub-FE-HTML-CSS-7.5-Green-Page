@@ -1,0 +1,45 @@
+body {
+    font-family: "Lucida Grande", SansSerif, Arial;
+}
+
+header {
+    display: block;
+    position: static;
+    background-color: hsl(63, 56%, 38%);
+
+    border-style: dashed;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1 {
+    color: white;
+}
+
+main {
+    display: block;
+    background-color: hsl(74, 95%, 93%);
+    border-style: double;
+    /*border-color: hsl(63, 56%, 10%);*/
+}
+
+article{
+    background-color: hsl(63, 56%, 75%);
+    border-width: 2px;
+    border-style: solid;
+    border-color: hsl(63, 56%, 35%) ;
+
+    margin: 10px;
+    padding: 15px;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.circle-one{
+    color: hsl(23, 100%, 65%);
+}
+
